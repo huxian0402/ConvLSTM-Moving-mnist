@@ -1,6 +1,8 @@
 # ConvLSTM-Moving-mnist
 Using convlstm to prediction moving mnist dataset.
 
+run main.py for train
+
 1、network structure
 使用其中一个序列，迭代训练，收敛。 前10帧--第11帧，...，第10-19帧预测第20帧。
 输入mnist序列            三层conv        一层BasicConvLstmCel  三层conv flatten
